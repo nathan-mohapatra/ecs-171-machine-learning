@@ -13,6 +13,7 @@ This repo also contains various discussion notebooks (i.e. brief coding tutorial
 
 ## Homework 1
 Topics covered:
+- Loading data
 - Missing data
 - Data visualization (bar plots, histograms, correlation matrix)
 - Linear regression
@@ -21,8 +22,8 @@ Topics covered:
 
 ## Homework 2
 Topics covered:
-- Training vs testing
-- Fitting linear regression model, making prediction, calculating error
+- Training set vs testing set
+- Fitting model, making prediction, calculating error
     - Mean Squared Error (MSE)
 - Plotting linear regression
 - Logistic regression
