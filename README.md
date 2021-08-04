@@ -1,15 +1,12 @@
-The University of California, Davis  
-Spring Quarter 2021  
-[ECS 171] Machine Learning (w/ Professor Rafatirad)
+# [ECS 171] Machine Learning
+For future reference, this repo will store my homework assignments, as well as discussions (i.e. brief coding tutorials provided by TAs), from this course, which taught me the fundamentals of machine learning through hands-on experience. Everything in this course was done using Jupyter Notebooks. Each homework directory contains two notebooks: my attempt at the assignment and the solution to the assignment provided by the professor. You will find that there are only minor discrepancies between them, if any.
 
-# Purpose of Repo
-For future reference, this repo will store the files that constitute my homework assignments in ECS 171. Additionally, by creating this repo (and others with similar content), I am familiarizing myself with Git and GitHub.
-
-The following datasets (included in repo) were used for the homework assignments:
+The following datasets, which were used in the homework assignments, are also included:
 - **auto-mpg.data**
-- **churn.txt**
+- **churn.txt**: 
+- **bitstrings.csv**
 
-This repo also contains various discussion notebooks (i.e. brief coding tutorials provided by TAs).
+Below is a list of topics covered corresponding to each homework assignment:
 
 ## Homework 1
 Topics covered:
@@ -22,19 +19,22 @@ Topics covered:
 
 ## Homework 2
 Topics covered:
+- Supervised learning
 - Training set vs testing set
 - Fitting model, making prediction, calculating error
     - Mean Squared Error (MSE)
-- Plotting linear regression
+- Model visualization
 - Logistic regression
 - Evaluation metrics
-    - Precision and recall
-- Min-max normalization
+    - Precision
+    - Recall
+- Feature scaling
+    - Min-max normalization
 
 ## Homework 3
 Topics covered:
 - Data Preprocessing
-    - Normalizing numeric data
+    - Normalizing numerical data
     - Encoding categorical data
         - Label encoding
         - One hot encoding
@@ -45,15 +45,17 @@ Topics covered:
         - One Class SVM
     - Pipelines
 - Multicollinearity (strongly correlated features)
-- Feed-forward multilayer perceptron (MLP) i.e. artificial neural network (ANN)
-    - Model architecture and topology (number of layers and "neurons")
-    - Sigmoid activation function
-    - Loss function
-    - Optimizer
+- Artificial neural networks (ANN)
+    - Model architecture and topology
+        - Number of layers and "neurons"
+    - Activation functions
+        - Sigmoid
+    - Loss functions
+    - Optimizers
         - Stochastic gradient descent (SGD)
         - Adam
     - Model evaluation
-        - Classification threshold values
+        - Classification threshold
         - Validation set
     - Model parameters
         - Plotting weight as function of iteration (batch)
@@ -61,7 +63,8 @@ Topics covered:
 
 ## Homework 4
 Topics covered:
-- Grid search (hyperparameter search algorithm)
+- Hyperparameter search algorithms
+    - Grid search
 - Backpropagation
     - Handwritten vs programmatic (Keras) calculations
     - Effects of diffferent initializations
@@ -73,3 +76,21 @@ Topics covered:
     - Cross entropy
 - Tuning hyperparameters for optimization
     - Trade-offs (e.g. hidden layer size and learning rate)
+
+## Homework 5
+Topics covered:
+- Unsupervised learning
+- Hierarchical clustering
+    - Agglomerative clustering
+        - Top-down vs bottom-up approach
+    - Linkage rules
+        - Single linkage
+        - Complete linkage
+        - Average linkage
+    - Distance functions
+        - Euclidean distance
+        - Manhattan distance
+        - Cosine distance
+    - Early stopping
+        - Distance threshold
+- K-means clustering
