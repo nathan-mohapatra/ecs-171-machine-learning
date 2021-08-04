@@ -9,7 +9,6 @@ The following datasets are also included:
 Below is a list of topics covered corresponding to each homework assignment:
 
 ## Homework 1
-Topics covered:
 - Loading data
 - Missing data
 - Data visualization (bar plots, histograms, correlation matrix)
@@ -18,7 +17,6 @@ Topics covered:
     - Ordinary Least Squares (OLS)
 
 ## Homework 2
-Topics covered:
 - Supervised learning
 - Training set vs testing set
 - Fitting model, making prediction, calculating error
@@ -32,7 +30,6 @@ Topics covered:
     - Min-max normalization
 
 ## Homework 3
-Topics covered:
 - Data Preprocessing
     - Normalizing numerical data
     - Encoding categorical data
@@ -62,7 +59,6 @@ Topics covered:
 - Comparing models
 
 ## Homework 4
-Topics covered:
 - Hyperparameter search algorithms
     - Grid search
 - Backpropagation
@@ -78,7 +74,6 @@ Topics covered:
     - Trade-offs (e.g. hidden layer size and learning rate)
 
 ## Homework 5
-Topics covered:
 - Unsupervised learning
 - Hierarchical clustering
     - Agglomerative clustering
