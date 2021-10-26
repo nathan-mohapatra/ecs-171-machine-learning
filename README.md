@@ -1,4 +1,4 @@
-# [ECS 171] Machine Learning
+# UCD Machine Learning
 For future reference, this repo will store my homework assignments, as well as discussions (i.e. brief coding tutorials provided by TAs), from this course, which taught me the fundamentals of machine learning through hands-on experience. Everything in this course was done using Jupyter Notebooks. Each homework directory contains two notebooks: my attempt at the assignment and the solution to the assignment provided by the professor. You will find that there are only minor discrepancies between them, if any.
 
 The following datasets are also included:
